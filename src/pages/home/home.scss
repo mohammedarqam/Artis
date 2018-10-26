@@ -17,6 +17,7 @@ page-home {
 .head{
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 .cardCont{
     font-size: 17px;
@@ -73,5 +74,46 @@ page-home {
 }
 .bb{
     height: 600px;
+}
+.productsDiv{
+    position: relative;
+    left: 50%;
+    
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+
+
+
+    height: 100px ;
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+.ourPimg{
+    position: relative;
+    top: 15%;
+    width: 50%;
+}
+.ourPtext{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.microBg{
+    ion-col{
+        padding-top: 50px;
+    }
+}
+
+.textplog{
+
+    position: relative;
+    bottom: 40%;
+    left: 60%;
+    width: 50%;
+    font-size: 300%;
+    color: #929292;
+    font-weight: 500;
 }
 }
