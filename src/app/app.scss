@@ -1,16 +1,72 @@
-// http://ionicframework.com/docs/theming/
+.mainLogo{
+    height: 70px;
+    width: auto;
+    padding-left: 20% ;
+}
+.whyCols{
+    border-right: 2px solid #92a3aa;
+}
+.colsFooter{
+    border-right: 2px solid map-get($colors,darkphone);
+}
+.colsf2{
+    border-right: 2px solid map-get($colors,whiter);
+    padding-left: 10%;
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+}
+.cardCont{
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%; 
+    padding-top: 1%;
+}
+.cardIconCont{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%; 
+    padding-top: 1%;
+    
+}
+.imgText{
+    color: map-get($colors,primary);
+    font-size: 36px;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.whyIcons{
+    height: 75px;
+    width: auto;
+    padding-left: 10%;
+}
 
+.ftrHead{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+}
+.ftrText{
+    font-size: 16px;
+    text-align: center;
+    text-align: left;
+}
+
+.microBg{
+    background:linear-gradient(rgba(187,105,181, 0.85), rgba(187,105,181, 0.85)),
+    rgba(187,105,181,0.85) url("/assets/imgs/micro.png")  no-repeat center;
+    background-size: cover;
+}
+.copy{
+    text-align: center;
+    font-size: 12px;
+}

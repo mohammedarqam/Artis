@@ -1,18 +1,238 @@
-<!--
-  Generated template for the AboutUsPage page.
+<ion-content>
+  <ion-grid>
+  
+    <!-- Menu Row -->
+    <ion-row>
+      <ion-col col-4>
+        <img src="assets/imgs/logo.png" class="mainLogo" >
+      </ion-col>
+      <ion-col col-8  >
+  
+        <ion-item no-lines>
+          <p item-end color="darkphone" padding-right ion-text >+91-40-40185150</p>
+        </ion-item>
+  
+        <ion-buttons end>
+          <button ion-button small color="darkphone" (click)="gtHome()" clear >Home</button>
+          <button ion-button small color="primary" clear (click)="gtAbout()" >About us</button>
+          <button ion-button small clear color="darkphone" >Products</button>
+          <button ion-button small clear color="darkphone" >Modules</button>
+          <button ion-button small clear color="darkphone" >Request a Demo</button>
+          <button ion-button small clear color="darkphone" (click)="gtContactUs()" >Contact Us</button>
+  
+          <button ion-button color="darkphone" clear icon-only>
+              <ion-icon name="search"></ion-icon>
+          </button> 
+    
+        </ion-buttons>
+  
+  
+        </ion-col>
+        </ion-row> 
+  
+<!-- Image Row -->
+    <ion-row>
+      <ion-card text-align: left>
+        <img src="assets/imgs/abt/mainBanner.png"  class="bb"  />
+      </ion-card>
+  <!-- Company overview row -->
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
+  <ion-card color="primary"  >
+    <ion-card-content>
+      <p class="head">Company overview</p>
+      <p class="cardCont" >Fertility treatment software needs to be able to manage
+         all the interactions between the various stakeholders of the hospital.
+          It also should be able to cater to tracking the progress of the treatments
+           and help patients view the progress. This is due to the fact, that 
+           IVF treatment cycle involves regular interaction and co-ordination
+            between people such as clinicians, embryologist, nursing staff, admin
+            . manager, front office staff, the pharmacy stock keeper and
+             the IVF patient.</p>
 
-  <ion-navbar>
-    <ion-title>aboutUs</ion-title>
-  </ion-navbar>
+      <p class="cardCont" >
+          ARTis™ (Assisted Reproductive Technology Information System) – a  unique and futuristic web-based Fertility treatment software that addresses the need for clinical, administrative, and patient support services of your IVF centre.
+          Our solution springs out of a thorough understanding of the IVF process and managing IVF centers. This simple and effective solution is a result of the collaborative effort of proven and highly experienced IT professionals and IVF specialists.
+        </p>
+    </ion-card-content>
+  </ion-card>
 
-</ion-header>
+  <ion-card>
+    <ion-card-content>
+        <p class="head">WHY ARTis</p>
+      <p class="cardCont" ion-text color="primary" >Following are the factors to be considered
+         while choosing a good Fertility treatment software.
+          ARTis scores well on all these key factors and help
+           you scale up in your operations and grow in line with your
+            plans. ARTis is a fully integrated, comprehensive 
+            solution and yet easy to set up and use. It helps in
+             optimization of the hospital resources and decision making.
+              Being a cloud offering, it supports doctors to
+               remotely support multiple centres.
+      </p>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col push-1 col-2>
+            <img src="assets/imgs/abt/person1.png">
+          </ion-col>
+          <ion-col padding-horizontal col-8 push-1>
+            <p ion-text padding-bottom padding-left text-justify	 >  
+              Kaladhar Gorantala has 20+ years of experience in Information 
+              technology services industry having worked in a 
+              renowned IT organization in 
+              India. As CEO of ARTis, he is focused on helping 
+              IVF centers across the globe, in running their IVF centers effectively, 
+              by offering a world class IVF software product ARTis.
+            </p>
+            <p ion-text padding-left text-justify	>
+              He brings in huge experience in working with global customers across the 
+              geographies and handling large scale projects 
+              and programs across the various industry segments. He has 
+              played project and program management 
+              roles for a number of Fortune 500 
+              companies. Having worked in wide range of 
+              ERP products, he has brought in huge amount of standardization 
+              in the product to take care of all the business processes 
+              related to running advanced IVF speciality medical practice.
+            </p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col push-1 col-2>
+          <p class="pTitle" >Kaladhar Gorantala</p>
+          <p class="pDes" >CEO, Sadguru Information Systems Pvt. Ltd.</p>    
+          </ion-col>
+        </ion-row>
 
 
-<ion-content padding>
+        <ion-row>
+            <ion-col push-1 col-2>
+              <img src="assets/imgs/abt/person2.png">
+            </ion-col>
+            <ion-col padding-horizontal col-8 push-1>
+              <p ion-text padding-bottom padding-left text-justify	 >  
+                  Sarat is chief architect of the product ARTis. He has more than 18 years of experience working in a number of startups in United States and India in various capacities. His experience covers various spectra of web technologies and has exposure of working on a number of industry domains, from automation software in the mechanical industry, Healthcare sector IT products and innovative HR solutions in recruitment space. He is a champion in Ruby on Rails Framework, a widely used architecture in the present day web technology solutions and platforms.
+                </p>
+              <p ion-text padding-left text-justify	>
+                  He was responsible for the design, development, quality assurance and deployment of the product ARTis in a collaborative effort with the medical and embryology experts and other technical evangelists and teams.              
+              </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col push-1 col-2>
+            <p class="pTitle" >Saratchandra Kongara</p>
+            <p class="pDes" >Principal Technology Architect</p>    
+            </ion-col>
+          </ion-row>
+      </ion-grid>
+      </ion-card-content>
+      </ion-card>
+  
 
+
+  <ion-card color="primary" >
+    <ion-card-content>
+        <p class="head">ARTis Team</p>
+      <ion-grid>
+        <ion-row>
+          <ion-col push-1 col-2>
+            <img src="assets/imgs/abt/icon1.png">
+          </ion-col>
+          <ion-col padding-horizontal col-8 push-1>
+            <p ion-text padding-bottom padding-left text-justify	 >  
+                S Mughal is an experienced sales and marketing professional, specialized in selling clinical software to the NHS and private health sector and originally she was also a qualified nurse and midwife. She is involved in data integration and cyber security in the medical industry.
+            </p>
+            <p ion-text padding-bottom padding-left text-justify	 >  
+                J Pugh has a vast experience in the Sales and Marketing within the Pharmaceutical industry and fertility market industry. She has been working closely with the NHS and have a vast understanding of the needs and levers of the NHS.
+            </p>
+            <p ion-text padding-left text-justify	>
+                Our ARTis team in Europe will play the key role of relationship management to be close to the clients and provide the required help, ably supported by the technical team form our India team.  
+            </p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col push-1 col-2>
+          <p class="pTitle" >ARTis Europe Team</p>
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row>
+            <ion-col push-1 col-2>
+              <img src="assets/imgs/abt/icon2.png">
+            </ion-col>
+            <ion-col padding-horizontal col-8 push-1>
+              <p ion-text padding-bottom padding-left text-justify	 >  
+                  ARTis technical team consists of highly skilled professionals with great credentials in building products with the latest web technologies. Team is working on a number of enhancements based on the feedback from the clients and based on the industry needs thereby making the product more robust. Predictive analytics, Enhancing clinical staff operations, Improving patient experience, Integrating with the external entities are some of the key areas being worked on.
+              </p>
+              <p ion-text padding-left text-justify	>
+                  Team is also focused on providing streamlined support to our clients and helping them demonstrate service differentiation and achieve better results and increased patient satisfaction. 
+              </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col push-1 col-2>
+            <p class="pTitle" >ARTis Technical Team</p>
+            </ion-col>
+          </ion-row>
+      </ion-grid>
+      </ion-card-content>
+      </ion-card>
+
+
+  <ion-card color="primary">
+    <ion-card-content>
+      <ion-grid  >
+        <ion-row  >
+
+          <ion-col  col-4 class="colsf2">
+            <ion-list no-lines style="text-align : center;" >
+              <p   class="ftrHead" padding-left>Quick Links</p>
+              <ion-item color="primary" class="ftrText" >Home</ion-item>
+              <ion-item color="primary" class="ftrText">Why ARTis?</ion-item>
+              <ion-item color="primary" class="ftrText">ARTis Advantage</ion-item>
+              <ion-item color="primary" class="ftrText">ARTis Modules</ion-item>
+              <ion-item color="primary" class="ftrText">Request for Demo</ion-item>
+            </ion-list>
+          </ion-col>
+
+          <ion-col col-4  class="colsf2" >
+            <ion-list no-lines>
+                <p   class="ftrHead" padding-left >USER BENEFITS</p>
+                <ion-item color="primary" class="ftrText" >Medical Director/Clinician</ion-item>
+                <ion-item color="primary" class="ftrText">Embryologist</ion-item>
+                <ion-item color="primary" class="ftrText">Fertility Nurse Specialist</ion-item>
+                <ion-item color="primary" class="ftrText">IVF Patient</ion-item>
+                <ion-item color="primary" class="ftrText">Centre Manager</ion-item>
+            </ion-list>
+          </ion-col>
+          <ion-col col-4  style="padding-left: 10%;" > 
+            <ion-list no-lines>
+                <p   class="ftrHead" padding-left >CONTACT</p>
+            <ion-item color="primary" class="ftrText" >T: +91-40-40185150</ion-item>
+            <ion-item color="primary" class="ftrText">T: +91-40-40207772</ion-item>
+            <ion-item color="primary" class="ftrText">M: +91-98663 04146</ion-item>
+            <ion-item color="primary" class="ftrText">E:  info@artisivf.com</ion-item>
+            <ion-item color="primary" >
+              <button ion-button round clear color="whiter">
+                <ion-icon name="logo-facebook" color="primary"></ion-icon>
+              </button>
+              <!-- <ion-icon round name="logo-facebook"></ion-icon>
+              <ion-icon name=""></ion-icon>
+              <ion-icon name=""></ion-icon> -->
+            </ion-item>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+<ion-toolbar>
+  <p ion-text color="darkphone" class="copy" >Copyright 2009 - 2018 ARTis | All Rights Reserved</p>
+</ion-toolbar>
+
+
+</ion-row>
+</ion-grid>
 </ion-content>

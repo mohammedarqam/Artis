@@ -13,12 +13,12 @@
       </ion-item>
 
       <ion-buttons end>
-        <button ion-button small color="primary" clear >Home</button>
-        <button ion-button small color="darkphone" clear >About us</button>
+        <button ion-button small color="primary" (click)="gtHome()" clear >Home</button>
+        <button ion-button small color="darkphone" clear (click)="gtAbout()" >About us</button>
         <button ion-button small clear color="darkphone" >Products</button>
         <button ion-button small clear color="darkphone" >Modules</button>
         <button ion-button small clear color="darkphone" >Request a Demo</button>
-        <button ion-button small clear color="darkphone" >Contact Us</button>
+        <button ion-button small clear color="darkphone" (click)="gtContactUs()" >Contact Us</button>
 
         <button ion-button color="darkphone" clear icon-only>
             <ion-icon name="search"></ion-icon>
@@ -32,7 +32,7 @@
 
   <!-- Image Row -->
   <ion-row>
-    <ion-card text-align: left>
+    <ion-card text-align: left class="bb" >
       <img src="assets/imgs/mainBanner.jpg"   />
       <p class="imgText">THE SIMPLEST <br/> WAY TO MANAGE <br/> YOUR IVF PRACTICE</p>
     </ion-card>

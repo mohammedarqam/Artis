@@ -1,4 +1,4 @@
-page-home {}
+page-home {
 .mainLogo{
     height: 70px;
     width: auto;
@@ -40,7 +40,7 @@ page-home {}
     font-size: 36px;
     position: absolute;
     left: 20%;
-    top: 100%;
+    top: 80%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
@@ -70,4 +70,8 @@ page-home {}
 .copy{
     text-align: center;
     font-size: 12px;
+}
+.bb{
+    height: 600px;
+}
 }
